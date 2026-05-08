@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family: 'Passion One', Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+header > p{
+    padding-bottom: 70px;
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main > p{
+    font-family: 'Sriracha', Helvetica, sans-serif;
+    font-size: 30px;
+    max-width: 300px;
+    position: relative;
+    left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.imagens{
+    height: 500px;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+
+}
+
+div.imagens > p{
+    font-family: 'Sriracha', Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 300px;
+    font-size: 1.7rem;
+    left: 50px;
+    top: 50px;
+    position: relative;
+    text-shadow: 0px 0px 5px black;
+}
+
+div#joaninha{
+    background-image: url(./imagens/joaninha.jpg);
+}
+
+div#carta{
+    background-image: url(./imagens/papeis.jpg);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Sriracha', Arial, Helvetica, sans-serif;
+}
